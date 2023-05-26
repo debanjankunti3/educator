@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    opacity: 0.7;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* .nav-list {
+    width: 57%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+} */
+
+li {
+    list-style: none;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.logo img {
+    width: 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding: 12px;
+
+}
+
+#search {
+    border-radius: 20px;
+    border: 2px solid bisque;
+}
+
+.btn-sm {
+    border-radius: 13px;
+    width: 67px;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    background-color: goldenrod;
+}
+
+.background {
+    background: rgb(238, 233, 233) url('https://source.unsplash.com/random/?study/" alt="study"') center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 6, 6);
+    max-width: 50%;
+    margin: auto;
+    padding: 25px;
+    height: 80%;
+}
+
+.firsthalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-big {
+    font-size: 39px;
+}
+
+.text-small {
+    font-size: 25px;
+}
+
+.secondhalf {
+    width: 30%;
+    margin-top: 12px;
+}
+
+.btn {
+    margin-top: 12px;
+    padding: 8px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(199, 7, 224);
+    color: rgb(128, 21, 0);
+}
+
+.secondhalf img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 180px;
+    display: block;
+    margin: auto;
+}
+
+.section {
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.secleft {
+    flex-direction: row-reverse;
+
+}
+
+.paras {
+    padding: 0px;
+}
+
+.imgfluid {
+    width: 80%;
+    border: 2px solid wheat;
+    border-radius: 30px;
+}
+
+.thumbnail {
+    width: 2500px;
+
+}
+
+.contact {
+    text-align: center;
+    background: url('contact.jpg')center no-repeat;
+    width: 100%;
+    background-blend-mode: darken;
+
+}
+
+.form-group {
+    margin: 20px 12px;
+    color: rgb(248, 246, 243);
+
+}
+
+input {
+    border-radius: 5px;
+
+}
+
+#submit {
+    cursor: pointer;
+    width: 10%;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+}
+
+.rightnav{
+    text-align: center;
+    padding-left: 100px;
+}
+#search{
+    width: 100%;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15%;
+}
+.h-nav{
+    height: 72px;
+}
+.visibiality{
+    opacity: 0;
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width:100% ;
+}
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+.text-small{
+    text-align: center;
+}
+.text-big{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.section{
+    flex-direction: column-reverse;
+}
+.imgfluid{
+    width: 59%;
+}
+.thumbnail{
+    width: 350px;
+}
